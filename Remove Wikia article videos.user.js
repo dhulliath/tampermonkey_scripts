@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         Remove Wikia article videos
+// @name         Remove Wikia/Fandom article videos
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Get rid of those autoplay Wikia videos
 // @author       Peter Olejniczak
-// @match        *.wikia.com/*
+// @match        *://*.wikia.com/*
+// @match        *://*.fandom.com/*
 // @grant        none
 // @require http://code.jquery.com/jquery-1.12.4.min.js
 // ==/UserScript==
